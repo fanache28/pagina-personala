@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina Personală - Gamer</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #444;
+        }
+        nav a {
+            color: white;
+            padding: 1rem;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background-color: #555;
+        }
+        section {
+            padding: 2rem;
+            max-width: 800px;
+            margin: auto;
+            background-color: white;
+            margin-bottom: 2rem;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        .portfolio-item {
+            margin-bottom: 1rem;
+        }
+        .portfolio-item img {
+            max-width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bun venit pe pagina mea personală!</h1>
+    </header>
+    <nav>
+        <a href="#despre-mine">Despre Mine</a>
+        <a href="#portofoliu">Portofoliu</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <section id="despre-mine">
+        <h2>Despre Mine</h2>
+        <p>Sunt un gamer și aș vrea să am această meserie. Jocurile video sunt pasiunea mea și îmi doresc să transform această pasiune într-o carieră.</p>
+    </section>
+    <section id="portofoliu">
+        <h2>Portofoliu</h2>
+        <div class="portfolio-item">
+            <h3>Proiect 1</h3>
+            <img src="https://via.placeholder.com/800x400" alt="Proiect 1">
+            <p>Descrierea primului meu proiect.</p>
+        </div>
+        <div class="portfolio-item">
+            <h3>Proiect 2</h3>
+            <img src="https://via.placeholder.com/800x400" alt="Proiect 2">
+            <p>Descrierea celui de-al doilea meu proiect.</p>
+        </div>
+        <!-- Poți adăuga mai multe proiecte aici -->
+    </section>
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Poți lua legătura cu mine prin email la: <a href="mailto:gamer@example.com">gamer@example.com</a></p>
+    </section>
+    <footer>
+        <p>&copy; 2024 Pagina Personală - Gamer</p>
+    </footer>
+</body>
+</html>
